@@ -7,15 +7,17 @@
         <title>{% block title %}{% endblock %}</title>
     </head>
     <body>
-        <div class="header">
-            <img src="{{ url_for('static', filename='pictures/cross.webp') }}">
-            <h2>The Hope Centered Church</h2>
+        <div class="navHeader">
+            <div class="header">
+                <img src="{{ url_for('static', filename='pictures/cross.webp') }}">
+                <h2>The Hope Centered Church</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                </ul>
+            </nav> 
         </div>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-            </ul>
-        </nav> 
         {% block content %} 
         {% endblock %}
     </body>

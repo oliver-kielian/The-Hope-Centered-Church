@@ -91,7 +91,7 @@ nav li a:hover {
   background-image: url('/static/pictures/hopecentered.jpg');
   background-size: cover;
   background-position: center;
-  filter: brightness(0.6);    /* dark overlay for text */
+  filter: brightness(0.3);    /* dark overlay for text */
   z-index: 0;
 }
 
